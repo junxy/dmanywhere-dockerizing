@@ -6,7 +6,7 @@ view new powerdesigner pdm/ldm online  / 在线查看 powerdesigner pdm/ldm Dock
 ## 使用说明
 
 ```bash
-git clone git@github.com:junxy/dmanywhere-docker.git
+git clone https://github.com/junxy/dmanywhere-Dockerizing.git
 cd dmanywhere-docker
 # 可选，根据需要修改 docker-compose.yml
 docker-compose build
