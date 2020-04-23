@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  dmanywhere:
+    image: dmanywhere
+    build: .
+    restart: always
+    container_name: dmanywhere
+    volumes:
+        # chown -R 1000:1000 work/ --如遇到权限问题
+        - './dm_conf:/work/conf'
+        - './dm_data:/work/data'
+    ports:
+        - '8082:8080'
